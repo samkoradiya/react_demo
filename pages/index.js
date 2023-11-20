@@ -1,6 +1,6 @@
 import React from 'react'
 import FormLayout from '../Component/Form/FormLayout'
-import CardLayout from '@/Component/card/CardLayout'
+import CardLayout from '../Component/card/CardLayout'
 import dummyData from './api/CardData'
 
 
