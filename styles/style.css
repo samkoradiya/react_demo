@@ -15,6 +15,7 @@
 .step1{@apply w-full flex flex-col;}
 .step1 .form-row{@apply w-full flex flex-col mb-[24px];}
 .step1 .form-row label,.step1 .form-row-group label{@apply text-[14px] font-medium leading-[20px] inline-block mb-[4px];}
+.step1 .form-row label > span{@apply text-red-1 ml-[1px];}
 .form-control{@apply border-gray-1 border-solid border-[1px] rounded-[5px] py-[8px] px-[12px] text-[14px] leading-[18.4px];}
 .form-control::placeholder{@apply text-[#7A7A7A];}
 .form-control:focus{@apply outline-none;}

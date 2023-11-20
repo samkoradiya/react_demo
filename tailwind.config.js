@@ -25,6 +25,9 @@ module.exports = {
         white:{
           1:"#ffffff",
         },
+        red:{
+          1:"#D86161",
+        },
       },
       backgroundColor:{
         blue:{

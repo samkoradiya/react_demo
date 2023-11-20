@@ -30,7 +30,7 @@ const Step2 = ({ onNext }) =>{
                     </div>
                 </div>
                 <div className="form-row">
-                    <label>Job title</label>
+                    <label>Total employee</label>
                     <Input type="text" placeholder="ex. UX UI Designer" className="form-control" />
                 </div>
                 
