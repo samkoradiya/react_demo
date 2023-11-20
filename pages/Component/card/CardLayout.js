@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Button from "../comon/Button";
 
-
-
 const CardLayout = ({image,title,Name,Address,time,experience,salary,employees,buttonName,buttonClassName}) =>{
     console.log(buttonName,"buttonName");
     return(
