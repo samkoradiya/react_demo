@@ -1,12 +1,39 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import React from 'react'
+import FormLayout from '../Component/Form/FormLayout'
+import CardLayout from '@/Component/card/CardLayout'
+import dummyData from './api/CardData'
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+const Home = () => {
+ 
   return (
-    <main>
-      <h1>Welcom to sameer</h1>
-    </main>
+      <main>
+         <section className='wrapper'>
+          <FormLayout />    
+        </section>
+        <section className='card-cover'>
+          <div className='wrapper'>
+            <div className='card-list'>
+              {dummyData.map((card) => (
+                <CardLayout 
+                  key={card.id}
+                  image={card.image} 
+                  title={card.title}
+                  Name={card.name}
+                  Address={card.address}
+                  time={card.time}
+                  experience={card.experience}
+                  salary={card.salary}
+                  employees={card.employees}
+                  buttonName={card.buttonName}
+                  buttonClassName={card.buttonClassName}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>      
   )
 }
+
+export default Home;

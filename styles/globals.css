@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(fonts.css);
 @import url(style.css);
 
 /* :root {
@@ -26,3 +27,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+
+body{ font-family: 'Poppins';@apply py-10 bg-white-3;}
