@@ -38,12 +38,12 @@ const Step2 = ({ onNext }) =>{
                     <label>Apply type</label>
                     <div className="form-radio-row">
                         <div className="radio-button">
-                            <label>Quick apply</label>
-                            <Input type="radio" className="radio-control" name="apply type" value="Quick apply" />
+                            <label for="Quick apply">Quick apply</label>
+                            <Input type="radio" id="Quick apply" className="radio-control" name="apply type" value="Quick apply"  />
                         </div>
                         <div className="radio-button">
-                            <label>External apply</label>
-                            <Input type="radio"  className="radio-control" name="apply type" value="External apply" />
+                            <label for="External apply">External apply</label>
+                            <Input type="radio" id="External apply"  className="radio-control" name="apply type" value="External apply" />
                         </div>
                     </div>
                 </div>          

@@ -15,7 +15,7 @@ const dummyData  = [
   {
     id:2,
     image:"/images/logo.png",
-    title:"UX UI Designer",
+    title:"Developer",
     name:"Great Vibes - Information Technology",
     address:"Chennai, Tamilnadu, India (In-office)",
     time:"Part-Time (9.00 am - 5.00 pm IST)",
@@ -28,7 +28,7 @@ const dummyData  = [
   {
     id:3,
     image:"/images/logo.png",
-    title:"UX UI Designer",
+    title:"Interaction Designer",
     name:"Great Vibes - Information Technology",
     address:"Chennai, Tamilnadu, India (In-office)",
     time:"Part-Time (9.00 am - 5.00 pm IST)",
@@ -41,7 +41,7 @@ const dummyData  = [
   {
     id:4,
     image:"/images/logo.png",
-    title:"UX UI Designer",
+    title:"SEO Analyst",
     name:"Great Vibes - Information Technology",
     address:"Chennai, Tamilnadu, India (In-office)",
     time:"Part-Time (9.00 am - 5.00 pm IST)",

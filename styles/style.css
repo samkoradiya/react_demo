@@ -20,10 +20,10 @@
 .form-control:focus{@apply outline-none;}
 .step1 .form-row-group{@apply flex flex-row mx-[-12px] items-end mb-[24px];}
 .step1 .form-row-group .form-group{@apply flex flex-col w-[50%] px-[12px];}
-.form-radio-row{@apply flex flex-row;}
-.form-radio-row .radio-button{@apply flex flex-row-reverse;}
+.form-radio-row{@apply flex flex-row py-[8px];}
+.form-radio-row .radio-button{@apply flex flex-row-reverse cursor-pointer;}
 .form-radio-row .radio-button:not(:last-child){@apply mr-[16px];}
-.form-radio-row label{@apply m-[0] text-[#7A7A7A] text-[14px] leading-[20px] font-normal inline-block !important;}
+.form-radio-row label{@apply m-[0] text-[#7A7A7A] text-[14px] leading-[20px] font-normal inline-block cursor-pointer !important;}
 .form-radio-row .radio-control{@apply appearance-none cursor-pointer rounded-[100px] w-[20px] h-[20px] border-gray-1 border-[2px] border-solid mr-[4px];}
 .form-radio-row .radio-control:checked{@apply border-blue-1 bg-blue-1;}
 .button-row{@apply mt-[71px] w-full flex justify-end;}
